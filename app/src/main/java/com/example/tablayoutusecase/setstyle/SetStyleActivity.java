@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.tablayoutusecase.R;
-import com.example.tablayoutusecase.defaultuse.IndicatorLineUtil;
 
 public class SetStyleActivity extends AppCompatActivity {
     private TabLayout tab1,tab2,tab3;
@@ -102,6 +101,11 @@ public class SetStyleActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * 引入布局设置图标和标题
+     * @param position
+     * @return
+     */
     private View makeTabView(int position){
         View tabView = LayoutInflater.from(this).inflate(R.layout.tab_text_icon,null);
         TextView textView = tabView.findViewById(R.id.textview);

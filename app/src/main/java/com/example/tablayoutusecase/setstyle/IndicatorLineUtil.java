@@ -1,11 +1,10 @@
-package com.example.tablayoutusecase.defaultuse;
+package com.example.tablayoutusecase.setstyle;
 
 import android.content.res.Resources;
 import android.support.design.widget.TabLayout;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.LinearLayout;
-
 import java.lang.reflect.Field;
 
 /**
