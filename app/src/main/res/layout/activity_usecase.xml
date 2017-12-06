@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#AAEBEBEB"
+    tools:context="com.example.tablayoutusecase.setstyle.SetStyleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="国家剧院合唱团"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab1"
+        style="@style/MyTablayoutstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab2"
+        app:tabIndicatorHeight="0dp"
+        android:background="@color/white"
+        app:tabSelectedTextColor="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/green"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/green"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/green"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/green"
+        android:layout_marginTop="20dp"
+        app:tabMode="scrollable"
+        android:background="@color/white"/>
+
+</LinearLayout>
